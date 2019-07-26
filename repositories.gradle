@@ -1,0 +1,12 @@
+repositories {
+    mavenLocal()
+    maven {
+        url "https://mirrors.coding.net/content/repositories/central/"
+    }
+    maven {
+        url "https://mirrors.coding.net/content/repositories/gradleplugins/"
+    }
+    maven {
+        url "https://mirrors.coding.net/content/repositories/jcenter/"
+    }
+}

@@ -1,0 +1,75 @@
+/src/main/resources/db.test.properties
+*~
+.DS_Store
+
+# Java class files
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# HPROF: A Heap/CPU Profiling Tool, see http://docs.oracle.com/javase/8/docs/technotes/samples/hprof.html
+*.hprof
+
+# Maven Files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# Gradle Files
+.gradle
+/build
+/*/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Intellij IDEA Files
+.idea/
+.ideaDataSources/
+*.iml
+*.ipr
+*.iws
+out/
+src/main/resources/rebel.xml
+
+# VS Code Files
+.vscode
+
+# Logs
+**/*.log
+**/missing-content-log.txt
+
+# Spring Boot config
+application.properties
+
+# nodejs
+bower_components/
+node_modules/
+
+# config files
+web/src/main/resources/quartz.properties
+git-svn-server/config.yml
+sso/src/main/resources/static/
+web/data/
+docker/data
+coding.ids
+
+# mysql-elasticsearch-river
+go_mysql_river.toml
+
+classes
+exclude.cnf
+rsync.sh
