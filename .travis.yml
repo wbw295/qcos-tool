@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - oraclejdk8
+install: skip
+#script: mvn test
+script: ./build.sh
