@@ -9,7 +9,7 @@ pipeline {
         }
         stage('构建') {
             steps {
-                echo '构建中...123'
+                echo '构建中...1213'
                 sh 'docker version'
                 echo '构建完成.'
                 script {
